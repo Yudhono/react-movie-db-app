@@ -365,13 +365,13 @@ export function Home() {
           </ul>
         </div>
       </div>
-      <div className='col-md-4 col-sm-6' style={{ color: "#5a606b" }}>
-        <h3>KEEP IN TOUCH</h3>
-        <ul className='list-unstyled'>
+      <div className="col-md-4 col-sm-6" style={{ color: "#5a606b" }}>
+        <h3> IN TOUCH</h3>
+        <ul className="list-unstyled">
           <li>
             <p>
               <strong>
-                <i className='fas fa-map-marker-alt'></i> Address:
+                <i className="fas fa-map-marker-alt"></i> Address:
               </strong>{" "}
               Klojen, Jawa Timur, Indonesia
             </p>
@@ -379,7 +379,7 @@ export function Home() {
           <li>
             <p>
               <strong>
-                <i className='fas fa-phone'></i> Phone:
+                <i className="fas fa-phone"></i> Phone:
               </strong>{" "}
               081294129053
             </p>
@@ -387,7 +387,7 @@ export function Home() {
           <li>
             <p>
               <strong>
-                <i className='fas fa-envelope'></i> Email:
+                <i className="fas fa-envelope"></i> Email:
               </strong>{" "}
               info@infomail.com Malang, Indonesia
             </p>
