@@ -196,6 +196,8 @@ export function Home() {
 
       <div className="row mt-3">{movieList}</div>
 
+      <div className="row mt-3">{movieList}</div>
+
       <div className="row mt-3">
         <div className="col">
           <p className="font-weight-bold" style={{ color: "#5a606b" }}>
