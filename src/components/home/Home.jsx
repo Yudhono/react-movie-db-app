@@ -58,23 +58,50 @@ export function Home() {
 
   const movies = nowPlaying.slice(0, 5).map((item, index) => {
     return (
-      <div style={{ height: 500, width: "100%" }} key={index}>
-        <div className='carousel-center'>
-          <img style={{ height: 600 }} src={item.backPoster} alt={item.title} />
-        </div>
+      <>
+        <div style={{ height: 500, width: "100%" }} key={index}>
+          <div className='carousel-center'>
+            <img
+              style={{ height: 600 }}
+              src={item.backPoster}
+              alt={item.title}
+            />
+          </div>
 
-        <div className='carousel-center'>
-          <i
-            className='far fa-play-circle'
-            style={{ fontSize: 95, color: "#f4c10f" }}></i>
-        </div>
+          <div className='carousel-center'>
+            <i
+              className='far fa-play-circle'
+              style={{ fontSize: 95, color: "#f4c10f" }}></i>
+          </div>
 
-        <div
-          className='carousel-caption'
-          style={{ textAlign: "center", fontSize: 35 }}>
-          {item.title}
+          <div
+            className='carousel-caption'
+            style={{ textAlign: "center", fontSize: 35 }}>
+            {item.title}
+          </div>
         </div>
-      </div>
+        <div style={{ height: 500, width: "100%" }} key={index}>
+          <div className='carousel-center'>
+            <img
+              style={{ height: 600 }}
+              src={item.backPoster}
+              alt={item.title}
+            />
+          </div>
+
+          <div className='carousel-center'>
+            <i
+              className='far fa-play-circle'
+              style={{ fontSize: 95, color: "#f4c10f" }}></i>
+          </div>
+
+          <div
+            className='carousel-caption'
+            style={{ textAlign: "center", fontSize: 35 }}>
+            {item.title}
+          </div>
+        </div>
+      </>
     );
   });
 
